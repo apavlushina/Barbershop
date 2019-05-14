@@ -16,7 +16,7 @@
         <img src="img/logo.svg" width="111" height="24" alt="Logo of BORODINSKI">
       </a>
           <ul class="site-navigation">
-            <li><a href="#">Info</a></li>
+            <li><a href="index.html">Info</a></li>
             <li><a href="#">News</a></li>
             <li><a href="#">Price</a></li>
             <li><a href="#">Store</a></li>
@@ -235,7 +235,7 @@
         </ul>
     </div>
     <p class="footer-copyright">
-      <b>Created by:</b>
+      <b>Created with:</b>
       <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
     </p>
   </div>
@@ -243,9 +243,26 @@
 
   <section class="modal modal-login">
     <h2>My Account</h2>
-    <p>You login and password</p>
-    FORMA!!!!!!
-    <span class="modal-close">x</span>
+    <p>Your login and password</p>
+    <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+      <p>
+        <label class="visually-hidden" for="user-login">Login</label>
+        <input class="login-icon-user" id="user-login" type="text" name="login" placeholder="Login">
+      </p>
+      <p>
+        <label class="visually-hidden" for="user-password">Password</label>
+        <input class="login-icon-password" id="user-password" type="password" name="password" placeholder="Password">
+      </p>
+      <p class="login-password-info">
+        <label class="login-checkbox">
+        <input type="checkbox" name="remember" class="visually-hidden ">
+        <span class="checkbox-indicator"></span>
+        Remember me</label>
+        <a class="restore" href="#">I forgot the password!</a>
+      </p>
+      <button type="submit" class="button">Login</button>
+    </form>
+    <button class="modal-close" type="button">Close</button>
   </section>
 
 </body>

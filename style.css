@@ -308,7 +308,7 @@ input[type="radio"].visually-hidden {
 }
 
 .news {
-  width: 380px;
+  width: 340px;
 }
 
 .news-list {
@@ -451,7 +451,7 @@ input[type="radio"].visually-hidden {
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
-
+  margin-bottom: 20px;
   list-style: none;
 }
 
@@ -1265,6 +1265,7 @@ input[type="radio"].visually-hidden {
   background-color: #000000;
 }
 
+
 .login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before {
   transform: rotate(45deg);
 }
@@ -1276,6 +1277,7 @@ input[type="radio"].visually-hidden {
 .restore {
   color: #000000;
   text-decoration: underline;
+  margin-left: 55px;
 }
 
 .restore:hover,
