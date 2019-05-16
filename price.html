@@ -9,18 +9,16 @@
   <link href="style.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="inner-page"">
   <header class="main-header">
-    <nav class="main-navigation">
+    <nav class="main-navigation container">
       <a class="main-header-logo">
-        <img src="img/index-logo.svg" width="368" height="153" alt="Logo of BORODINSKI">
+        <img src="img/logo.svg" width="111" height="24" alt="Logo of BORODINSKI">
       </a>
-      <div class="main-navigation-wrapper">
-        <div class="container">
           <ul class="site-navigation">
-            <li class="site-navigation-current"><a href="index.html>Info</a></li>
+            <li><a href="index.html">Info</a></li>
             <li><a href="#">News</a></li>
-            <li><a href="#">Price</a></li>
+            <li class="site-navigation-current"><a href="price.html">Price</a></li>
             <li><a href="catalog.html">Store</a></li>
             <li><a href="#">Contacts</a></li>
           </ul>
@@ -29,98 +27,64 @@
               <a class="login-link" href="login.html">
                 Login</a></li>
           </ul>
-        </div>
-      </div>
     </nav>
   </header>
 
   <main class="container">
-    <section class="features">
-      <ul class="features-list">
-        <li class="feature-item">
-          <h3>Quick</h3>
-          <p>We work fast! Two hours will fly without any notice - and you are already lucky to have stylish one-minute-haircut.</p>
-        </li>
-        <li class="feature-item">
-          <h3>Cool</h3>
-          <p>Forget your previous experience. We will create from you a movie- or a football-star! <br> At least by first impression - according your new good-looking appearance.</p>
-        </li>
-        <li class="feature-item">
-          <h3>Expensive</h3>
-          <p>Our masters are real professionals in their specialty and it can not cost cheap. And, by the way, isn't the price a mark of status?</p>
-        </li>
-      </ul>
-      </section>
+    <section class="inner-content">
+        <h2 class="big-heading">Truly gentleman classics</h2>
 
-      <div class="index-columns">
-        <section class="news">
-          <h2>News</h2>
-          <ul class="news-list">
-            <li class="news-item">
-              <p>Finally! Jagermeister is delivered to our place! So you can have a drink while you enjoy haircut process.</p>
-              <time datetime="2019-01-11">11 of January</time>
-            </li>
-            <li class="news-item">
-              <p>We have a new team member: Sweeney Todd "The Demon Barber". He has a lot of rewards and certificates and many-many talents.</p>
-              <time datetime="2019-01-18">18 of January</time>
-            </li>
-          </ul>
-          <a class="button" href="#">All news</a>
-          </section>
-          <section class="gallery">
-            <h2>Photos</h2>
-            <div class="gallery-container">
-            <figure class="gallery-content">
-              <a href="#"><img src="img/studio.jpg" width="286" height="164" alt="Interior"></a>
-            </figure>
-            <button class="button gallery-button gallery-button-back">Previous</button>
-            <button class="button gallery-button gallery-button-next">Next</button>
-              </div>
-          </section>
-      </div>
+        <div class="inner-columns">
+            <div class="inner-column-left">
 
-      <div class="index-columns">
-        <section class="contacts">
-          <h2>How to contact us</h2>
-          <p>
-            Barbershop BORODINSKI <br>
-            Adress: Moscow, Arbat, 15/5 <br>
-            Phone: +7 (495) 900 90 90
-          </p>
-          <p>
-            Working hours: <br>
-            Mon-Fri: 10am - 10pm <br>
-            Sat-Sun: 10am - 7pm
-          </p>
-          <a class="button" href="map.html">How to find us</a>
-          <a class="button" href="#">Your feedback</a>
-        </section>
-        <section class="appointment">
-          <h2>Make an appointment</h2>
-          <p class="appointment-info">
-            Please inform us about your preferences with date and time and we will contact you to confirm your reservation.
-          </p>
-          <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
-            <p class="appointment-item">
-              <label for="appointment-date">Date</label>
-              <input id="appointment-date" type="text" name="date" value="" placeholder="08.05.2019">
-            </p>
-            <p class="appointment-item">
-              <label for="appointment-time">Time</label>
-              <input id="appointment-time" type="text" name="time" value="" placeholder="10:00">
-            </p>
-            <p class="appointment-item">
-              <label for="appointment-name">Name</label>
-              <input id="appointment-name" type="text" name="time" value="" placeholder="John">
-            </p>
-            <p class="appointment-item">
-              <label for="appointment-phone">Phone</label>
-              <input id="appointment-phone" type="tel" name="phone" value="" placeholder="+7 123 456-78-90">
-            </p>
-            <button class="button" type="submit">Confirm</button>
-          </form>
-        </section>
-      </div>
+                <h2>We use only
+                    <br> the best cosmetics:</h2>
+                <ul class="custom-list-1">
+                    <li>Baxter of California</li>
+                    <li>Mr Natty</li>
+                    <li>Suavecito</li>
+                    <li>Malin+Goetz</li>
+                </ul>
+
+            </div>
+            <div class="inner-column-right">
+
+                <h2>Price-list
+                    <br> for our services:</h2>
+                <table class="custom-table-1">
+                    <tr>
+                        <td>Hair cut</td>
+                        <td>150 €</td>
+                    </tr>
+                    <tr>
+                        <td>Beard sculpt</td>
+                        <td>50 €</td>
+                    </tr>
+                    <tr>
+                        <td>Moustache shaping</td>
+                        <td>30 €</td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+
+        <div class="inner-columns">
+            <h2>Some info about our Company:</h2>
+
+            <div class="inner-column-left">
+
+                <p class="short-text">The barbers here mean business; there's no idle nattering about holiday plans as they expertly shape beards and style your hair into traditional but adaptable styles. What really gives the booked-in treatments the edge (pun intended) is the ear hair burning and the hot towel treatment. </p>
+
+            </div>
+            <div class="inner-column-right">
+
+                <p class="short-text">There aren't that many places in Moscow you can have your fuzz removed with fire, after all. The hour-long session is a hefty €75, so you need to care more about your look than your bank statement, but at the end of it you'll look a million bucks, so what goes around comes around.</p>
+
+            </div>
+        </div>
+
+    </section>
   </main>
 
   <footer class="main-footer">
